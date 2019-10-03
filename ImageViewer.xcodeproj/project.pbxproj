@@ -15,7 +15,7 @@
 		4ED4155523451BE7009E0C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4155323451BE7009E0C38 /* LaunchScreen.storyboard */; };
 		4ED4155D23451C3F009E0C38 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4155C23451C3F009E0C38 /* MainViewController.swift */; };
 		4ED4155F23451C54009E0C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4155E23451C54009E0C38 /* Main.storyboard */; };
-		4ED4156323451D7A009E0C38 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4156223451D7A009E0C38 /* Album.swift */; };
+		4ED415652345DE64009E0C38 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED415642345DE64009E0C38 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		4ED4155623451BE7009E0C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED4155C23451C3F009E0C38 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4ED4155E23451C54009E0C38 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		4ED4156223451D7A009E0C38 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		4ED415642345DE64009E0C38 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				4ED4154A23451BE5009E0C38 /* SceneDelegate.swift */,
 				4ED4154C23451BE5009E0C38 /* ContentView.swift */,
 				4ED4155C23451C3F009E0C38 /* MainViewController.swift */,
-				4ED4156223451D7A009E0C38 /* Album.swift */,
+				4ED415642345DE64009E0C38 /* MainTableViewCell.swift */,
 				4ED4154E23451BE7009E0C38 /* Assets.xcassets */,
 				4ED4155323451BE7009E0C38 /* LaunchScreen.storyboard */,
 				4ED4155E23451C54009E0C38 /* Main.storyboard */,
@@ -160,7 +160,7 @@
 				4ED4154B23451BE5009E0C38 /* SceneDelegate.swift in Sources */,
 				4ED4154D23451BE5009E0C38 /* ContentView.swift in Sources */,
 				4ED4155D23451C3F009E0C38 /* MainViewController.swift in Sources */,
-				4ED4156323451D7A009E0C38 /* Album.swift in Sources */,
+				4ED415652345DE64009E0C38 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
