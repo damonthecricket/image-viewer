@@ -30,6 +30,16 @@ class MainViewController: UITableViewController {
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        if segue.identifier == "push.album" {
+            let vc = segue.destination as! AlbumViewController
+            let selectedIndexPath = tableView.indexPathForSelectedRow!
+            vc.album = albums[selectedIndexPath.row]
+        }
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

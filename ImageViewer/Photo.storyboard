@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UB7-yY-bMt">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photo View Controller-->
+        <scene sceneID="nhI-eW-skH">
+            <objects>
+                <viewController id="UB7-yY-bMt" customClass="PhotoViewController" customModule="ImageViewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rIm-nf-VXl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QY3-Dd-BTl">
+                                <rect key="frame" x="0.0" y="243" width="414" height="410"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="410" id="I4s-Tv-J86"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="QY3-Dd-BTl" firstAttribute="leading" secondItem="0xt-S5-nCJ" secondAttribute="leading" id="3lN-lb-8aG"/>
+                            <constraint firstItem="QY3-Dd-BTl" firstAttribute="trailing" secondItem="0xt-S5-nCJ" secondAttribute="trailing" id="GCD-SW-auB"/>
+                            <constraint firstItem="QY3-Dd-BTl" firstAttribute="centerY" secondItem="rIm-nf-VXl" secondAttribute="centerY" id="Wg8-AO-1RR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0xt-S5-nCJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="photoImageView" destination="QY3-Dd-BTl" id="sx1-KO-Ual"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kvg-Li-bg3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-39.130434782608695" y="91.741071428571431"/>
+        </scene>
+    </scenes>
+</document>

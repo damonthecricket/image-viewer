@@ -67,6 +67,7 @@
                                 <connections>
                                     <outlet property="countLabel" destination="ewM-wh-hkD" id="VO4-Oi-oF4"/>
                                     <outlet property="nameLabel" destination="QKX-Sx-hxV" id="HUd-cF-XUn"/>
+                                    <segue destination="aEH-j1-B6C" kind="show" identifier="push.album" id="Cbl-hX-YxA"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -80,6 +81,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Frj-xK-ssR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-365.21739130434787" y="70.982142857142847"/>
+        </scene>
+        <!--Album-->
+        <scene sceneID="MBL-Tw-6Gc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Album" id="aEH-j1-B6C" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="B9M-AQ-Usg"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jxC-HR-ArM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="-3"/>
         </scene>
     </scenes>
 </document>
